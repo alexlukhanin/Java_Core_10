@@ -18,6 +18,10 @@ package hw10;
 
 import java.util.Scanner;
 
+import palindrom.InputChecker;
+import replace_vowels.ReplacerOfVowelSymbols;
+import stringwords.WordsInStringMaster;
+
 public class Application {
 
 	public static void main(String[] args) {

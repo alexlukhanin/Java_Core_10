@@ -5,7 +5,7 @@
  * *
  */
 
-package hw10;
+package replace_vowels;
 
 /**
  * *

@@ -5,7 +5,7 @@
  * *
  */
 
-package hw10;
+package stringwords;
 
 /**
  * *
@@ -24,8 +24,10 @@ public class WordsInStringMaster {
 		super();
 
 	}
-/**  The method counts the number of words in the string*/
+
 	public int countWords(String string) {
+		/**  The method counts the number of words in the string - Task 03!!!  */	
+		
 		int count = 1;
 		for (int i = 0; i < string.length(); i++) {
 			if (string.charAt(i) == ' ') {
@@ -41,6 +43,7 @@ public class WordsInStringMaster {
 	}
 
 	public String findMostOftenWord(String string) {
+		/**  The method finds the most often word in the string - Task 04!!!  */
 		
 		String[] str = string.split("\\W+");         // Array wo separators
         int[] howMuch = new int[str.length];    // each word corresponds to the number of identical

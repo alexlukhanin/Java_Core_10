@@ -5,7 +5,9 @@
  * *
  */
 
-package hw10;
+package palindrom;
+
+import hw10.WrongInputException;
 
 /**
  * *
